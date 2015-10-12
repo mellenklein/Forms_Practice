@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'Myriad';
+  src: url("/Users/maryellenklein/dev/_homework/week02/mon/fonts/myriad.otf"); }
+
+* {
+  box-sizing: border-box;
+  font-family: "Myriad"; }
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #296794;
+  font-style: italic; }
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #296794;
+  font-style: italic; }
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #296794;
+  font-style: italic; }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #296794;
+  font-style: italic; }
+
+body {
+  font-size: 10px;
+  font-family: 'Helvetica', sans-serif; }
+  body .form {
+    margin: 0 auto;
+    display: block;
+    overflow: auto;
+    background: #5BA3D6;
+    color: #fff;
+    text-align: center;
+    padding: 0 5%;
+    width: 100%; }
+  body form.form fieldset {
+    border-radius: 5px;
+    width: 33.33%;
+    font-size: 1.25em;
+    float: left;
+    border: none;
+    padding: 30px;
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
+  body label,
+  body input,
+  body button,
+  body textarea {
+    float: left;
+    clear: both; }
+  body input,
+  body textarea,
+  body select {
+    background: none;
+    border: 2px solid #fff;
+    width: 100%;
+    color: #fff;
+    padding: 5px;
+    font-size: 1.3em; }
+  body input:focus,
+  body textarea:focus {
+    outline-color: #296794;
+    border: 2px solid #296794;
+    box-shadow: none;
+    opacity: 1;
+    outline: none; }
+  body select {
+    border: 1px solid #A0A5A9;
+    color: #fff; }
+  body select:focus {
+    border: 1px solid #A0A5A9;
+    box-shadow: none;
+    opacity: 1;
+    outline: none; }
+  body label {
+    padding: 15px 0 3px;
+    text-transform: uppercase; }
+  body textarea {
+    margin-top: 5px; }
+
+@media (max-width: 784px) {
+  body form.form fieldset {
+    float: none;
+    width: 85%;
+    display: block;
+    clear: both;
+    padding-top: 0;
+    padding-bottom: 0; }
+  body form.form fieldset.col-1 {
+    padding-top: 30px; }
+  body form.form fieldset.col-3 {
+    padding-bottom: 30px; } }
+
+@media (max-width: 480px) {
+  body form.form fieldset {
+    float: none;
+    width: 100%;
+    display: block;
+    clear: both; } }
